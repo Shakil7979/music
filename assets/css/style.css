@@ -125,6 +125,23 @@ a:hover{
 	gap: 10px;
 }
 
+.header_left ul li a span {
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	background: #A7F45C;
+	border-radius: 100%;
+}
+
+.header_left ul li a i {
+	color: #D9DADA;
+	font-size: 13px;
+}
+
+.header_right ul li a i {
+	font-size: 15px;
+}
+
 .button_item ul li a img {
 	width: 40px;
 	height: 39px;
