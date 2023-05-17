@@ -42,7 +42,24 @@ $( function() {
 
 $(document).on('click','.music_mdl_btn',function(){
     $('.music_modal').show();
-})
+});
+
+$(document).on('click','.modal_close',function(){
+    $('.music_modal').hide();
+});
+
+
+$( function() {
+    $( ".generator_modal" ).draggable();
+  } );
+
+$(document).on('click','.generator_modal_btn',function(){
+    $('.generator_modal').show();
+});
+
+$(document).on('click','.generator_modal_close',function(){
+    $('.generator_modal').hide();
+});
 
 
 

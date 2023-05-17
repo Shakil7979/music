@@ -26,7 +26,7 @@ body{
   font-family: 'VT323', monospace;
   height: 100vh;
   overflow: hidden;
-  background: url('../images/bg.jpg') no-repeat scroll center center / 100% 100%;
+  background: url('../images/bg.png') no-repeat scroll center center / 100% 100%;
 }
 button{
   outline: none !important;
@@ -98,6 +98,10 @@ a:hover{
 
 .header_right ul li a img {
 	width: 19px;
+}
+
+.header_left ul li a img {
+	width: 13px;
 }
 
 
@@ -414,8 +418,8 @@ a:hover{
     width: 280px;
   }
   .music-player .icon-circle-mid .next-prev-arrows {
-    top: 22%;
-    left: 75%;
+    bottom: 15px;
+    left: 57%;
   }
   .music-player .music-arrow-left,
 .music-player .music-arrow-right {
@@ -424,21 +428,100 @@ a:hover{
 }
 
 
+.generator_modal,
 .music_modal {
 	width: 400px;
 	background: #fff;
 	overflow: hidden;
 	height: 400px;
-  display: none;
+	display: none;
+	border: 2px solid #4a4a4a;
+  position: relative;
+  z-index: 999;
+} 
+
+.generator_modal{
+  width: 500px;
+  height: 500px;
+}
+
+.generator_form {
+	padding: 20px;
 }
 
 .modal_header {
 	display: flex;
 	justify-content: space-between;
-	padding: 5px 15px;
+	padding: 2px;
 	align-items: center;
+	border-bottom: 2px solid #4a4a4a;
 }
 
 .modal_header a i {
 	color: #000;
+}
+
+.generator_modal_close,
+.modal_close {
+	width: 23px;
+	height: 20px;
+	border: 1px solid #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 13px;
+}
+
+
+
+.bar_span span {
+	display: block;
+	width: 125px;
+	height: 2px;
+	background: #4a4a4a;
+	margin-top: 2px;
+}
+
+.bar_short_span span {
+	display: block;
+	width: 20px;
+	height: 2px;
+	background: #4a4a4a;
+	margin-top: 2px;
+}
+
+.form-group {
+	display: flex;
+	align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-group label {
+	flex: 0 0 23%;
+}
+.yes_no {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.form-group input { 
+	height: 20px;
+}
+
+.yes_now_label .form-group label {
+	flex: 0 0 48%;
+}
+
+.form-img img {
+	width: 138px;
+}
+
+.group_text_img img {
+	width: 436px;
+	margin-top: 15px;
+}
+
+.generator_modal .bar_span span { 
+	width: 177px; 
 }

@@ -24,7 +24,7 @@
 
 <body>
 
-    <div id="preloader" class="animate__animated ">
+    <!-- <div id="preloader" class="animate__animated ">
         <div class="txt">
             <p class="text-center">Loading Uptron Music...</p>
           <p class="txt-perc" id="txt-preloadert">0%</p>
@@ -35,7 +35,7 @@
     <div class="overlay_btn">
         <p><i class="fa-solid fa-circle"></i></p>
         <button id="boot_btn">Boot Uptron</button>
-    </div>
+    </div> -->
 
     <!--Start Header Area-->
     <header class="header_area">
@@ -43,15 +43,15 @@
             <div class="header_left">
                 <ul>
                     <li><a href="#">Upturn 03 <span></span></a></li>
-                    <li><a href="#">Unloack Wallet <i class="fa-solid fa-unlock-keyhole"></i></a></li>
+                    <li><a href="#">Unloack Wallet <img src="assets/images/icon/horn2.svg" alt=""></a></li>
                 </ul>
             </div>
             <div class="header_right">
                 <ul>
-                    <li><a href="#"><i class="fa-solid fa-volume-high"></i></a></li>
+                    <li><a href="#"><img src="assets/images/icon/sound.svg" alt=""></a></li>
                     <li><a href="#">Vote</a></li>
                     <li><a href="#">Thu 4 May 13:00</a></li>
-                    <li><a href="#"><img src="assets/images/bot.png" alt=""></a></li>
+                    <li><a href="#"><img src="assets/images/icon/lock.svg" alt=""></a></li>
                 </ul>
             </div>
         </div>
@@ -61,11 +61,15 @@
     <main class="main-area">
 
         <div class="main_content_box">
+
+            <!-- music model start  -->
             <div class="music_modal">
                 <div class="modal_header">
-                    <a href="#"><i class="fa-solid fa-xmark"></i></i></a>
+                    <p class="bar_short_span"><span></span><span></span><span></span><span></span><span></span></p>
+                    <a class="modal_close" href="#"><i class="fa-solid fa-xmark"></i></i></a>
+                    <p class="bar_span"><span></span><span></span><span></span><span></span><span></span></p>
                     <h4>Music Player</h4>
-                    <p><span></span><span></span><span></span><span></span><span></span></p>
+                    <p class="bar_span"><span></span><span></span><span></span><span></span><span></span></p>
                 </div>
                 <div class="model_content">
                     <div class="music-player music-active-js">
@@ -124,17 +128,124 @@
                       </div>
                 </div>
             </div>
+            <!-- music model end  -->
+
+            <!-- music model start  -->
+            <div class="generator_modal">
+                <div class="modal_header">
+                    <p class="bar_short_span"><span></span><span></span><span></span><span></span><span></span></p>
+                    <a class="generator_modal_close" href="#"><i class="fa-solid fa-xmark"></i></i></a>
+                    <p class="bar_span"><span></span><span></span><span></span><span></span><span></span></p>
+                    <h4>Generator</h4>
+                    <p class="bar_span"><span></span><span></span><span></span><span></span><span></span></p>
+                </div>
+                <div class="model_content">
+                    <div class="generator_form">
+                        <form action="#">
+                            <div class="form-group">
+                                <label for="token">Token Name</label>
+                                <input type="text" id="token">
+                            </div>
+                            <div class="form-group">
+                                <label for="ticker">Ticker</label>
+                                <input type="text" id="token"> <span>[3-5 digits]</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="decimal">Decimals</label>
+                                <input type="number" id="decimal"> <span>[18 Recomended]</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="supply">Tot. Supply</label>
+                                <input type="number" id="supply">
+                            </div>
+                            <div class="row align-items-center">
+                                <div class="col-md-6 yes_now_label">
+                                    <div class="form-group">
+                                        <label for="minting">Minting</label>
+                                        <div class="yes_no">
+                                            <p>
+                                                <input type="radio" name="minting">Yes</input>
+                                            </p>
+                                            <p>
+                                                <input type="radio" name="minting">No</input>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="burning">Burning</label>
+                                        <div class="yes_no">
+                                            <p>
+                                                <input type="radio" name="burning">Yes</input>
+                                            </p>
+                                            <p>
+                                                <input type="radio" name="burning">No</input>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="token_pouse">Token Pouse</label>
+                                        <div class="yes_no">
+                                            <p>
+                                                <input id="token_pouse" type="radio" name="token_pouse">Yes</input>
+                                            </p>
+                                            <p>
+                                                <input id="token_pouse" type="radio" name="token_pouse">No</input>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="blacklisting">Blacklisting</label>
+                                        <div class="yes_no">
+                                            <p>
+                                                <input type="radio" name="blacklisting">Yes</input>
+                                            </p>
+                                            <p>
+                                                <input type="radio" name="blacklisting">No</input>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="Whitelisiting">Whitelisiting</label>
+                                        <div class="yes_no">
+                                            <p>
+                                                <input type="radio" name="Whitelisiting">Yes</input>
+                                            </p>
+                                            <p>
+                                                <input type="radio" name="Whitelisiting">No</input>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="confirm_btn">
+                                        <button type="submit">Confirm</button>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-img">
+                                        <img src="assets/images/volume.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="group_text_img">
+                                <img src="assets/images/form_text.png" alt="">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- music model end  -->
+
+
         </div>
         
         <div class="button_item">
             <ul>
-                <li><a class="music_mdl_btn" href="#"><img src="assets/images/icon/1.png" alt=""><button class="btn_style">Music Player</button></a></li>  
-                <li><a href="#"><img src="assets/images/icon/2.png" alt=""><button class="btn_style">Dex</button></a></li>  
-                <li><a href="#"><img src="assets/images/icon/3.png" alt=""><button class="btn_style">Twitter</button></a></li>  
-                <li><a href="#"><img src="assets/images/icon/4.png" alt=""><button class="btn_style">Discord</button></a></li>  
-                <li><a href="#"><img src="assets/images/icon/5.png" alt=""><button class="btn_style">About</button></a></li>     
-                <li><a href="#"><img src="assets/images/icon/6.png" alt=""><button class="btn_style">Cleim</button></a></li>     
-                <li><a href="#"><img src="assets/images/icon/7.png" alt=""><button class="btn_style">Generator</button></a></li>     
+                <li><a class="music_mdl_btn" href="#"><img src="assets/images/icon/1.svg" alt=""><button class="btn_style">Music Player</button></a></li>  
+                <li><a href="#"><img src="assets/images/icon/2.svg" alt=""><button class="btn_style">Dex</button></a></li>  
+                <li><a href="#"><img src="assets/images/icon/3.svg" alt=""><button class="btn_style">Twitter</button></a></li>  
+                <li><a href="#"><img src="assets/images/icon/4.svg" alt=""><button class="btn_style">Discord</button></a></li>  
+                <li><a href="#"><img src="assets/images/icon/5.svg" alt=""><button class="btn_style">About</button></a></li>     
+                <li><a href="#"><img src="assets/images/icon/6.svg" alt=""><button class="btn_style">Cleim</button></a></li>     
+                <li><a class="generator_modal_btn" href="#"><img class="last_btn_img" src="assets/images/icon/7.svg" alt=""><button class="btn_style">Generator</button></a></li>     
             </ul>
         </div>
 

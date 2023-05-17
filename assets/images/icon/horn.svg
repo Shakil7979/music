@@ -1,0 +1,12 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 25" width="17" height="25">
+	<title>2</title>
+	<defs>
+		<image  width="17" height="25" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAZCAYAAADXPsWXAAAAAXNSR0IB2cksfwAABNBJREFUeJw9VUtvG1UY/ebeO++Hx05Te9LETYNcoapQBLRVJSoQldiwAZbsYIMQEjv+CEtWSCyQukBigcQKiQUSoqh0USAkVfyKm6SOGz8yY4/nxbnTtNe6Hs99nHvu+c73WSwWC8qylKIwpFN0wzDtyXh847+d7fe3t/99y7Kd1VbrctuvVP7YurT1S55nf/b63XEQrJHnVShNUxJ01hhjAq01Oh5+dHh0eCcMoyYWNTBmnp7O1hjRlXZn76auqT/ruv4t53xYFEW5twThjJOiKBfn8/nnne7eZ4PBQAPsPd+v/saYEibL5dpsNrvxZHj0LlPotfP1OtVq5+6qqtqVOM+ZsCgKb+3v9z4ZDociiqIfNU3/Bux+NUwjzPP8HOXFh2mSfgqmN4+Hw6+C4MJ4ZWXlO0ixAIhCBwf7tx88uP9xt9dzBBff65r+dV7Q3wAPwVAecoz+A4CPuBBfTmezO/v97nuLefRgOp3eE0WRqZPJ5HZ/f/+dg8eDdhCs37Vt4/doPpc64QjlTDNlZNvWT9Vq9QJOv9Vud64pjLeCRnBPQF0Ni9chlgmx7idJvJPnJum6QcvlkgTnJDROEg7rMtd1HwJkeDKerliWu371lWtCJEnCIVDhue7YtszuZDyKbcumxtoG9ft9qngura8HlKUZZClgh4wrCsvAyAezl0CiLjAA3fJlkiyzeBmrtlthlWqNwEpGjNrtLu3s7soL0ZUrL1Ot6mcQPgEew94q2DlC07QYa2OEVzk9DY1qrZ7btosTc1I1lY5HT6nT6ZIQGm00m7QWNBLoQzmUV5TCBLov4MBV0PQUxnAt3WAKC2CiQ0x6eE5VVSxBu+BclZpwbG3IdWmaEKSw4Pi6ePz44IvJeHq7Vlt1/DdX3q76tXXTNGaT6URe/i8q8vuUZweFwlme5tcty/ngfIMHe+09GgwObcfxLoher3d1d2c3GBwe8Hq90RxPoqYMK/RBPsVvEDc7qumOwYB1BodbKfEWZ6SORiNyLA8WKSx8Uf9kPD7Z22tXZ7MI3uPoDKFVSVWNpsKMplc9D004TaM5PfxnmwyVS22oXq9rjuNYYnPz4qPFYj7UdG1L3jtBKONlCo+kzzIUnl51faqtVKkocpqHEamC0Y3rr9OlS5sOmKwJmOzVy61W0NzYIIawyjSQQEtcR4LIKCCTSUOkCnyWcQyJMoS6Kp8Z8i+BIfmGV6n4SKYSRG6Q/shRY7I8L0+XKZ8j5DLx5XuSZASvyK4jl1yBsM1iNORPuVkulDknxS29AE/AVeWc9I6c4/ws+RXFwgE1aXt4JeflVbDpNDylEB1jEFYjTddJoN7I90W8KJ1c8bwyOWHUCZj3JUDJskx5lK8sz8rEk5tQFihLEoqzOcWLmOBqMi2LXMcpQQAYAmgoS2IONtCskHcoqfMzbUzDKO8mPfMcuCwPz2qMfGZ4X0oQDpEVKV6pgxQQ5Bhnz+4OdshySR25pJFpmlTQi8awT8h6YuCHLkcARvBMSV0HiwXCiYPL0yu+j3KQvogelZEqNLlXahLiR4QJB+Mp/jJwI54i8eYIX4h4yRyCxprB0LkomwSQBFI8c9QTZRe9gn4CLeae53HMLTD5FPXiCdbEYGhjzIdGvoEKeMbaRX+E8aP/AVrzirCvJkIpAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+	</style>
+	<g id="Menu">
+		<use id="Lock [icon] [M2]" href="#img1" x="0" y="0"/>
+	</g>
+</svg>
