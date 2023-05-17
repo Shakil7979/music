@@ -1,1 +1,46 @@
-responsive.css
+@media all and (max-width: 767px){
+    .header_right ul, .header_left ul { 
+        justify-content: center;
+    }
+
+    .header_right {
+        border-top: 1px solid #000;
+        width: 100%; 
+    }
+
+    .header { 
+        flex-direction: column;
+    }
+
+    .button_item ul { 
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
+
+@media all and (max-width:576px){
+    .secend_model_form, .image_model, .generator_modal, .music_modal {
+        width: 100%;
+    }
+    .audio_left { 
+        top: 8%; 
+    }
+    .audio_right { 
+        right: 23%;
+    }
+    .audio_pouse { 
+        left: 35%;
+    }
+    .form-img {
+        text-align: center;
+    }
+    .group_text_img img {
+        width: 100%; 
+    }
+
+    .last_form_img { 
+        gap: 0;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+}

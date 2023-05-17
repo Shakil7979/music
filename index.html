@@ -48,7 +48,12 @@
             </div>
             <div class="header_right">
                 <ul>
-                    <li><a href="#"><img src="assets/images/icon/sound.svg" alt=""></a></li>
+                    <li class="sound_box"><a href="#"><img src="assets/images/icon/sound.svg" alt=""></a>
+                        <div id="progressbar">
+                            <div class="knob" id="knob1"></div>
+                            <div class="range" id="range"></div>
+                        </div>
+                    </li>
                     <li><a href="#">Vote</a></li>
                     <li><a href="#">Thu 4 May 13:00</a></li>
                     <li><a href="#"><img src="assets/images/icon/lock.svg" alt=""></a></li>
@@ -72,7 +77,15 @@
                     <p class="bar_span"><span></span><span></span><span></span><span></span><span></span></p>
                 </div>
                 <div class="model_content">
-                    <div class="music-player music-active-js">
+                    <div class="mobile_model">
+                        <img src="assets/images/mobile.png" alt="">
+                        <div class="audio_controller">
+                            <a class="audio_left"  href="#"><img src="assets/images/left.png" alt=""></a>
+                            <a href="#" class="audio_pouse"><img  src="assets/images/pouse.png" alt=""></a>
+                            <a href="#" class="audio_right"><img  src="assets/images/right.png" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- <div class="music-player music-active-js">
                         <canvas class="opacity-js" id="myCanvas" width="800" height="400"></canvas>
                         <audio crossorigin="anonymous" id="myAudio" src=""></audio> 
                       
@@ -112,12 +125,11 @@
                             <source src="https://raw.githubusercontent.com/alekm91/dj/master/src/assets/videos/vid-1.mp4">
                           </video>
                         </div> 
-                      </div>
+                      </div> -->
                       
                       <!-- The reason behind this approach is because the original app was developed for a WP site, this field is a repeater field and I can easily use PHP to manipulate as much data as the user enters here  -->
                       
-                      <div class="song-selection">
-                        <!-- <p class="song-select" data-author="Author Name" data-name="Song Name" data-path="path"></p> -->
+                      <!-- <div class="song-selection"> 
                         <p class="song-select" data-author="Stellar Dreams" data-name="Infinity" data-path="https://raw.githubusercontent.com/alekm91/dj/master/src/assets/music/infinity.mp3"></p>
                         <p class="song-select" data-author="Stellar Dreams" data-name="Parallel" data-path="https://raw.githubusercontent.com/alekm91/dj/master/src/assets/music/parallel.mp3"></p>
                         <p class="song-select" data-author="AvB Mashup" data-name="Overload Vs We're All We Need" data-path="https://raw.githubusercontent.com/alekm91/dj/master/src/assets/music/avb.mp3"></p>
@@ -125,7 +137,7 @@
                         <p class="song-select" data-author="Max Oazo ft. Camishe" data-name="Supergirl" data-path="https://raw.githubusercontent.com/alekm91/dj/master/src/assets/music/supergirl.mp3"></p>
                         <p class="song-select" data-author="Kavinsky" data-name="Nightcall" data-path="https://raw.githubusercontent.com/alekm91/dj/master/src/assets/music/nightcall.mp3"></p>
                         <p class="song-select" data-author="Moby" data-name="JLTF" data-path="https://raw.githubusercontent.com/alekm91/dj/master/src/assets/music/jltf.mp3"></p>
-                      </div>
+                      </div> -->
                 </div>
             </div>
             <!-- music model end  -->
@@ -234,6 +246,102 @@
             </div>
             <!-- music model end  -->
 
+            
+            <!-- music model start  -->
+            <div class="image_model">
+                <div class="modal_header">
+                    <p class="bar_short_span"><span></span><span></span><span></span><span></span><span></span></p>
+                    <a class="image_model_close" href="#"><i class="fa-solid fa-xmark"></i></i></a>
+                    <p class="bar_span"><span></span><span></span><span></span><span></span><span></span></p>
+                    <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+                    <p class="bar_span"><span></span><span></span><span></span><span></span><span></span></p>
+                </div>
+                <div class="model_content">
+                    <div class="model_text_img">
+                        <img src="assets/images/popup_text.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- music model end  -->
+            
+            <!-- music model start  -->
+            <div class="secend_model_form">
+                <div class="modal_header">
+                    <p class="bar_short_span"><span></span><span></span><span></span><span></span><span></span></p>
+                    <a class="secend_model_form_close" href="#"><i class="fa-solid fa-xmark"></i></i></a>
+                    <p class="bar_span"><span></span><span></span><span></span><span></span><span></span></p>
+                    <h4>Initial Dist</h4>
+                    <p class="bar_span"><span></span><span></span><span></span><span></span><span></span></p>
+                </div>
+                <div class="model_content">
+                    <div class="model_second_form">
+                        <div class="form-group form_group_gap">
+                            <p>Receipiant Address</p>
+                            <p>#Of Tokens</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="">01</label>
+                            <input type="text" >
+                            <input type="text" >
+                        </div>
+                        <div class="form-group">
+                            <label for="">02</label>
+                            <input type="text" >
+                            <input type="text" >
+                        </div>
+                        <div class="form-group">
+                            <label for="">03</label>
+                            <input type="text" >
+                            <input type="text" >
+                        </div>
+                        <div class="form-group">
+                            <label for="">04</label>
+                            <input type="text" >
+                            <input type="text" >
+                        </div>
+                        <div class="form-group">
+                            <label for="">05</label>
+                            <input type="text" >
+                            <input type="text" >
+                        </div>
+                        <div class="form-group">
+                            <label for="">06</label>
+                            <input type="text" >
+                            <input type="text" >
+                        </div>
+                        <div class="form-group">
+                            <label for="">07</label>
+                            <input type="text" >
+                            <input type="text" >
+                        </div>
+                        <div class="form-group">
+                            <label for="">08</label>
+                            <input type="text" >
+                            <input type="text" >
+                        </div>
+                        <div class="form-group">
+                            <label for="">09</label>
+                            <input type="text" >
+                            <input type="text" >
+                        </div>
+                        
+                        <div class="confirm_btn">
+                            <button type="submit">Confirm</button>
+                        </div>
+                        <div class="last_form_img">
+                            <p>The initial allocation 
+                                of tokens to the 
+                                contract creator or 
+                                specific addresses, 
+                                such as for a team, 
+                                advisors, or partners.</p>
+                            <img src="assets/images/last_form_text.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- music model end  -->
+
 
         </div>
         
@@ -244,7 +352,7 @@
                 <li><a href="#"><img src="assets/images/icon/3.svg" alt=""><button class="btn_style">Twitter</button></a></li>  
                 <li><a href="#"><img src="assets/images/icon/4.svg" alt=""><button class="btn_style">Discord</button></a></li>  
                 <li><a href="#"><img src="assets/images/icon/5.svg" alt=""><button class="btn_style">About</button></a></li>     
-                <li><a href="#"><img src="assets/images/icon/6.svg" alt=""><button class="btn_style">Cleim</button></a></li>     
+                <li><a class="image_model_btn" href="#"><img src="assets/images/icon/6.svg" alt=""><button class="btn_style">Cleim</button></a></li>     
                 <li><a class="generator_modal_btn" href="#"><img class="last_btn_img" src="assets/images/icon/7.svg" alt=""><button class="btn_style">Generator</button></a></li>     
             </ul>
         </div>
@@ -259,7 +367,14 @@
     <!-- JS File -->
     <script src="assets/js/modernizr-3.11.2.min.js"></script>
     <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
+
+    
+    
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.4/js/all.js "></script>
+    <script src="assets/js/popper.min.js"></script> 
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
     <script src="assets/js/custom.js"></script>

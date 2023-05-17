@@ -51,14 +51,32 @@ $(document).on('click','.modal_close',function(){
 
 $( function() {
     $( ".generator_modal" ).draggable();
+    $( ".secend_model_form" ).draggable();
   } );
 
 $(document).on('click','.generator_modal_btn',function(){
     $('.generator_modal').show();
+    $('.secend_model_form').show();
 });
 
 $(document).on('click','.generator_modal_close',function(){
     $('.generator_modal').hide();
+});
+
+$(document).on('click','.secend_model_form_close',function(){
+    $('.secend_model_form').hide(); 
+});
+
+$( function() {
+    $( ".image_model" ).draggable();
+  } );
+
+$(document).on('click','.image_model_btn',function(){
+    $('.image_model').show();
+});
+
+$(document).on('click','.image_model_close',function(){
+    $('.image_model').hide();
 });
 
 
@@ -267,3 +285,15 @@ toggleVid.addEventListener("click", function () {
     vid.pause();
   }
 });
+
+
+
+
+
+
+
+
+
+
+// line progress 
+
