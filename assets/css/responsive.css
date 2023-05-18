@@ -1,6 +1,9 @@
+ 
 @media all and (max-width: 767px){
     .header_right ul, .header_left ul { 
-        justify-content: center;
+        -webkit-box-pack: center; 
+            -ms-flex-pack: center; 
+                justify-content: center;
     }
 
     .header_right {
@@ -9,12 +12,16 @@
     }
 
     .header { 
-        flex-direction: column;
+        -webkit-box-orient: vertical; 
+        -webkit-box-direction: normal; 
+            -ms-flex-direction: column; 
+                flex-direction: column;
     }
 
     .button_item ul { 
         width: 100%;
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
 }
 
@@ -40,7 +47,10 @@
 
     .last_form_img { 
         gap: 0;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         margin-top: 20px;
     }
     .generator_modal { 
