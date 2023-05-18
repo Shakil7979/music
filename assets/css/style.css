@@ -464,6 +464,7 @@ a:hover{
 .generator_modal {
 	width: 500px; 
 	left: 32%;
+  z-index: 9999;
 }
 
 .image_model {
