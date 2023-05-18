@@ -61,12 +61,23 @@ $(document).on('click','.generator_modal_btn',function(){
     $('.generator_modal').show(); 
 });
 
- 
-$(document).on('click','.generate_submit_btn',function(){ 
-    $('.secend_model_form').show();
+$(document).on('change','.initial_dist',function(){
+  var check = $("input[type='radio'][name='initial_dist']:checked").val();
 
-    return false;
-});
+  if(check == 1){
+    $('.secend_model_form').show();
+  }else{
+    $('.secend_model_form').hide();
+  }
+
+  // console.log(check);
+})
+ 
+// $(document).on('click','.generate_submit_btn',function(){ 
+//     $('.secend_model_form').show();
+
+//     return false;
+// });
 
 
 
