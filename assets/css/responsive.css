@@ -43,4 +43,14 @@
         flex-direction: column;
         margin-top: 20px;
     }
+    .generator_modal { 
+        left: 0%;
+    }
+    .secend_model_form {
+        left: 0%;  
+    }
+    .image_model {
+        left: 0%;
+        top: 2%;
+    }
 }

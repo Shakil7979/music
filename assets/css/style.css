@@ -155,8 +155,8 @@ a:hover{
 }
 
 .button_item ul li a img {
-	width: 40px;
-	height: 39px;
+	width: 60px;
+	height: 50px;
 }
 
 .btn_style {
@@ -182,14 +182,16 @@ a:hover{
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	background: #ddd;
+  /* background: #fff; */
+	background: url('../images/bg.jpg') no-repeat scroll center center / cover;
 	z-index: 9;
 	justify-content: center;
   transition: 0.3s;
 }
 
-.overlay_btn p i {
-	font-size: 40px;
+.overlay_btn p img {
+	width: 110px;
+	margin-top: 13px;
 }
 
 .overlay_btn button {
@@ -445,7 +447,7 @@ a:hover{
 	/* height: 400px; */
 	display: none;
 	border: 2px solid #4a4a4a;
-  position: relative;
+  position: absolute;
   z-index: 999;
   border-right: 4px solid #4a4a4a;
   border-bottom: 4px solid #4a4a4a;
@@ -459,9 +461,9 @@ a:hover{
   height: 550px;
 } */
  
-.generator_modal{
-  width: 500px;
-  /* height: 500px; */
+.generator_modal {
+	width: 500px; 
+	left: 32%;
 }
 
 .image_model {
@@ -496,6 +498,17 @@ a:hover{
 	justify-content: center;
 	align-items: center;
 	font-size: 13px;
+  position: relative;
+}
+
+.secend_model_form {
+	left: 67%;
+	top: 5%;
+}
+
+.image_model  {
+  left: 30%;
+  top: 0;
 }
 
 
@@ -531,8 +544,9 @@ a:hover{
 	align-items: center;
 }
 
-.form-group input { 
+.form-group input {
 	height: 20px;
+	-moz-appearance: textfield;
 }
 
 .yes_now_label .form-group label {

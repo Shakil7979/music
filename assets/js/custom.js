@@ -38,6 +38,9 @@ $(document).on('click','#boot_btn',function(){
 
 $( function() {
     $( ".music_modal" ).draggable();
+    $( ".image_model" ).draggable();
+    $( ".generator_modal" ).draggable();
+    $( ".secend_model_form" ).draggable();
   } );
 
 $(document).on('click','.music_mdl_btn',function(){
@@ -49,15 +52,24 @@ $(document).on('click','.modal_close',function(){
 });
 
 
-$( function() {
-    $( ".generator_modal" ).draggable();
-    $( ".secend_model_form" ).draggable();
-  } );
+// $( function() {
+//     $( ".generator_modal" ).draggable();
+//     $( ".secend_model_form" ).draggable();
+//   } );
 
 $(document).on('click','.generator_modal_btn',function(){
-    $('.generator_modal').show();
-    $('.secend_model_form').show();
+    $('.generator_modal').show(); 
 });
+
+ 
+$(document).on('click','.generate_submit_btn',function(){ 
+    $('.secend_model_form').show();
+
+    return false;
+});
+
+
+
 
 $(document).on('click','.generator_modal_close',function(){
     $('.generator_modal').hide();
@@ -67,9 +79,9 @@ $(document).on('click','.secend_model_form_close',function(){
     $('.secend_model_form').hide(); 
 });
 
-$( function() {
-    $( ".image_model" ).draggable();
-  } );
+// $( function() {
+//     $( ".image_model" ).draggable();
+// } );
 
 $(document).on('click','.image_model_btn',function(){
     $('.image_model').show();
