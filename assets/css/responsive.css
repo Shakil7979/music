@@ -31,6 +31,9 @@
     .modal_header a i { 
         padding: 6px;
     }
+    .header_left ul li:first-child { 
+        border-left: 1px solid #292929;
+    }
 
 }
 
