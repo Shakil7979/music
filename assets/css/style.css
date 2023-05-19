@@ -27,7 +27,7 @@ body{
   font-family: 'VT323', monospace;
   height: 100vh;
   overflow: hidden;
-  background: url('../images/bg.png') no-repeat scroll center center / 100% 100%;
+  background: url('../images/bg.webp') no-repeat scroll center center / 100% 100%;
 }
 button{
   outline: none !important;
@@ -223,7 +223,7 @@ a:hover{
 	height: 100%;
 	position: absolute;
   /* background: #fff; */
-	background: url('../images/intro.png') no-repeat scroll center center / cover;
+	background: url('../images/intro.webp') no-repeat scroll 0 0 / cover;
 	z-index: 9;
 	-webkit-box-pack: center;
 	    -ms-flex-pack: center;
