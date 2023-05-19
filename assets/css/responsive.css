@@ -101,3 +101,20 @@
         right: 27%;
     }
 }
+
+
+@media all and (max-width:340px){
+    
+    .sound_box a img {
+        top: 35px; 
+    }
+    .audio_left { 
+        left: 20%;
+    }
+    .audio_right {
+        right: 23%;
+    }
+    .audio_pouse {
+        left: 35%;
+    }
+}
