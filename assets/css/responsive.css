@@ -69,13 +69,25 @@
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
                 flex-direction: column;
-        margin-top: 20px;
+        margin-top: 3px;
     }  
+    .last_form_img img {
+        width: 160px;
+    }
     .image_model { 
         top: 2%;
     }
     .button_item { 
         padding-bottom: 35px;
+    }
+    .form-group { 
+        margin-bottom: 4px;
+    }
+    .yes_no input {
+        width: 40px;
+    }
+    .form-img img {
+        width: 57px;
     }
 }
 
